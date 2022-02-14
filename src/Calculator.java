@@ -3,7 +3,7 @@ import java.math.RoundingMode;
 
 public class Calculator{
     
-    //Create method for addition
+    //Create method for addition using BigDecimal to avoid double rounding errors
     public static double add(double A, double B){
         BigDecimal bdA= BigDecimal.valueOf(A);
         BigDecimal bdB= BigDecimal.valueOf(B);
