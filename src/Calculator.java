@@ -10,21 +10,21 @@ public class Calculator{
         return bdA.add(bdB).doubleValue();
     }
 
-    //Create method for subtraction using BigDecimal to avoid double rounding errors
+    //Create method for subtraction using BigDecimal
     public static double subtract(double A, double B){
         BigDecimal bdA= BigDecimal.valueOf(A);
         BigDecimal bdB= BigDecimal.valueOf(B);
         return bdA.subtract(bdB).doubleValue();
     }
 
-    //Create method for multiplication using BigDecimal to avoid double rounding errors
+    //Create method for multiplication using BigDecimal
     public static double multiply(double A, double B){
         BigDecimal bdA= BigDecimal.valueOf(A);
         BigDecimal bdB= BigDecimal.valueOf(B);
         return bdA.multiply(bdB).doubleValue();
     }
 
-    //Create method for division using BigDecimal to avoid double rounding errors, set scale as 16 and rounding
+    //Create method for division using BigDecimal, set scale as 16
     public static double divide(double A, double B){
         BigDecimal bdA= BigDecimal.valueOf(A);
         BigDecimal bdB= BigDecimal.valueOf(B);
