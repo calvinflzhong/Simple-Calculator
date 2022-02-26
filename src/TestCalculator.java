@@ -4,6 +4,7 @@ public class TestCalculator{
     public static void main (String[] args){
         //Declare variable for operator
         int operator = -1;
+        
         //Declare variable for output
         double result;
         
